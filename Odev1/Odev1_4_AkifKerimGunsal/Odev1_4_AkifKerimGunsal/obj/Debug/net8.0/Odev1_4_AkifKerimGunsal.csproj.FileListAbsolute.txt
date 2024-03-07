@@ -1,0 +1,14 @@
+C:\Users\akifk\source\repos\TobetoEgitimler\Odev1_4_AkifKerimGunsal\Odev1_4_AkifKerimGunsal\bin\Debug\net8.0\Odev1_4_AkifKerimGunsal.exe
+C:\Users\akifk\source\repos\TobetoEgitimler\Odev1_4_AkifKerimGunsal\Odev1_4_AkifKerimGunsal\bin\Debug\net8.0\Odev1_4_AkifKerimGunsal.deps.json
+C:\Users\akifk\source\repos\TobetoEgitimler\Odev1_4_AkifKerimGunsal\Odev1_4_AkifKerimGunsal\bin\Debug\net8.0\Odev1_4_AkifKerimGunsal.runtimeconfig.json
+C:\Users\akifk\source\repos\TobetoEgitimler\Odev1_4_AkifKerimGunsal\Odev1_4_AkifKerimGunsal\bin\Debug\net8.0\Odev1_4_AkifKerimGunsal.dll
+C:\Users\akifk\source\repos\TobetoEgitimler\Odev1_4_AkifKerimGunsal\Odev1_4_AkifKerimGunsal\bin\Debug\net8.0\Odev1_4_AkifKerimGunsal.pdb
+C:\Users\akifk\source\repos\TobetoEgitimler\Odev1_4_AkifKerimGunsal\Odev1_4_AkifKerimGunsal\obj\Debug\net8.0\Odev1_4_AkifKerimGunsal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akifk\source\repos\TobetoEgitimler\Odev1_4_AkifKerimGunsal\Odev1_4_AkifKerimGunsal\obj\Debug\net8.0\Odev1_4_AkifKerimGunsal.AssemblyInfoInputs.cache
+C:\Users\akifk\source\repos\TobetoEgitimler\Odev1_4_AkifKerimGunsal\Odev1_4_AkifKerimGunsal\obj\Debug\net8.0\Odev1_4_AkifKerimGunsal.AssemblyInfo.cs
+C:\Users\akifk\source\repos\TobetoEgitimler\Odev1_4_AkifKerimGunsal\Odev1_4_AkifKerimGunsal\obj\Debug\net8.0\Odev1_4_AkifKerimGunsal.csproj.CoreCompileInputs.cache
+C:\Users\akifk\source\repos\TobetoEgitimler\Odev1_4_AkifKerimGunsal\Odev1_4_AkifKerimGunsal\obj\Debug\net8.0\Odev1_4_AkifKerimGunsal.dll
+C:\Users\akifk\source\repos\TobetoEgitimler\Odev1_4_AkifKerimGunsal\Odev1_4_AkifKerimGunsal\obj\Debug\net8.0\refint\Odev1_4_AkifKerimGunsal.dll
+C:\Users\akifk\source\repos\TobetoEgitimler\Odev1_4_AkifKerimGunsal\Odev1_4_AkifKerimGunsal\obj\Debug\net8.0\Odev1_4_AkifKerimGunsal.pdb
+C:\Users\akifk\source\repos\TobetoEgitimler\Odev1_4_AkifKerimGunsal\Odev1_4_AkifKerimGunsal\obj\Debug\net8.0\Odev1_4_AkifKerimGunsal.genruntimeconfig.cache
+C:\Users\akifk\source\repos\TobetoEgitimler\Odev1_4_AkifKerimGunsal\Odev1_4_AkifKerimGunsal\obj\Debug\net8.0\ref\Odev1_4_AkifKerimGunsal.dll
