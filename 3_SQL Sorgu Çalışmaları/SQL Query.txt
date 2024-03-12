@@ -1,0 +1,147 @@
+1. Product isimlerini (`ProductName`) ve birim başına miktar (`QuantityPerUnit`) değerlerini almak için sorgu yazın.
+SELECT ProductName, QuantityPerUnit
+FROM Products;
+
+
+2. Ürün Numaralarını (`ProductID`) ve Product isimlerini (`ProductName`) değerlerini almak için sorgu yazın. Artık satılmayan ürünleri (`Discontinued`) filtreleyiniz.
+SELECT ProductID, ProductName
+FROM Products
+WHERE Discontinued = 0;
+
+
+3. Durdurulmayan (`Discontinued`) Ürün Listesini, Ürün kimliği ve ismi (`ProductID`, `ProductName`) değerleriyle almak için bir sorgu yazın.
+SELECT ProductID, ProductName
+FROM Products
+WHERE Discontinued > 0;
+
+
+4. Ürünlerin maliyeti 20'dan az olan Ürün listesini (`ProductID`, `ProductName`, `UnitPrice`) almak için bir sorgu yazın.
+SELECT ProductID, ProductName, UnitPrice
+FROM Products
+WHERE UnitPrice < 20;
+
+
+5. Ürünlerin maliyetinin 15 ile 25 arasında olduğu Ürün listesini (`ProductID`, `ProductName`, `UnitPrice`) almak için bir sorgu yazın.
+SELECT ProductID, ProductName, UnitPrice
+FROM Products
+WHERE UnitPrice BETWEEN 15 AND 25;
+
+
+6. Ürün listesinin (`ProductName`, `UnitsOnOrder`, `UnitsInStock`) stoğun siparişteki miktardan az olduğunu almak için bir sorgu yazın.
+SELECT ProductName, UnitsOnOrder, UnitsInStock
+FROM Products
+WHERE UnitsInStock < UnitsOnOrder;
+
+
+7. İsmi `a` ile başlayan ürünleri listeleyeniz.
+SELECT ProductName
+FROM Products
+WHERE ProductName LIKE 'a%';
+
+
+8. İsmi `i` ile biten ürünleri listeleyeniz.
+SELECT ProductName
+FROM Products
+WHERE ProductName LIKE '%i';
+
+
+9. Ürün birim fiyatlarına %18’lik KDV ekleyerek listesini almak (ProductName, UnitPrice, UnitPriceKDV) için bir sorgu yazın.
+SELECT ProductName, UnitPrice, UnitPrice * 1.18 AS UnitPriceWithKDV
+FROM Products;
+
+
+10. Fiyatı 30 dan büyük kaç ürün var?
+SELECT COUNT(*)
+FROM Products
+WHERE UnitPrice > 30;
+
+
+11. Ürünlerin adını tamamen küçültüp fiyat sırasına göre tersten listele
+SELECT LOWER(ProductName) AS ProductNameLower
+FROM Products
+ORDER BY UnitPrice DESC;
+
+
+12. Çalışanların ad ve soyadlarını yanyana gelecek şekilde yazdır
+SELECT FirstName + ' ' + LastName AS FullName
+FROM Employees;
+
+
+13. Region alanı NULL olan kaç tedarikçim var?
+SELECT COUNT(*) As RegionIsNullCount
+FROM Suppliers
+WHERE Region IS NULL;
+
+
+14. a.Null olmayanlar?
+SELECT COUNT(*) As RegionIsNotNullCount
+FROM Suppliers
+WHERE Region IS NOT NULL;
+
+
+15. Ürün adlarının hepsinin soluna TR koy ve büyültüp olarak ekrana yazdır.
+SELECT CONCAT('TR', UPPER(ProductName)) AS ProductName_TR
+FROM Products;
+
+
+16. a.Fiyatı 20den küçük ürünlerin adının başına TR ekle
+SELECT CONCAT('TR', UPPER(ProductName)) AS ProductName_TR
+FROM Products
+WHERE UnitPrice < 20;
+
+
+17. En pahalı ürün listesini (`ProductName` , `UnitPrice`) almak için bir sorgu yazın.
+SELECT ProductName, UnitPrice
+FROM Products
+ORDER BY UnitPrice DESC;
+
+
+18. En pahalı on ürünün Ürün listesini (`ProductName` , `UnitPrice`) almak için bir sorgu yazın.
+SELECT TOP 10 ProductName, UnitPrice
+FROM Products
+ORDER BY UnitPrice DESC;
+
+
+19. Ürünlerin ortalama fiyatının üzerindeki Ürün listesini (`ProductName` , `UnitPrice`) almak için bir sorgu yazın.
+SELECT ProductName, UnitPrice
+FROM Products
+WHERE UnitPrice > (SELECT AVG(UnitPrice) FROM Products);
+
+
+20. Stokta olan ürünler satıldığında elde edilen miktar ne kadardır.
+SELECT SUM(UnitPrice * UnitsInStock) AS TotalRevenue
+FROM Products;
+
+
+21. Mevcut ve Durdurulan ürünlerin sayılarını almak için bir sorgu yazın.
+SELECT 
+    COUNT(CASE WHEN Discontinued = 0 THEN 1 END) AS ActiveProducts,
+    COUNT(CASE WHEN Discontinued = 1 THEN 1 END) AS DiscontinuedProducts
+FROM Products;
+
+22. Ürünleri kategori isimleriyle birlikte almak için bir sorgu yazın.
+SELECT Products.ProductName, Categories.CategoryName
+FROM Products
+JOIN Categories ON Products.CategoryID = Categories.CategoryID;
+
+
+23. Ürünlerin kategorilerine göre fiyat ortalamasını almak için bir sorgu yazın.
+SELECT Categories.CategoryName, AVG(Products.UnitPrice) AS AveragePrice
+FROM Products
+JOIN Categories ON Products.CategoryID = Categories.CategoryID
+GROUP BY Categories.CategoryName;
+
+
+24. En pahalı ürünümün adı, fiyatı ve kategorisin adı nedir?
+SELECT TOP 1 ProductName, UnitPrice, Categories.CategoryName
+FROM Products
+JOIN Categories ON Products.CategoryID = Categories.CategoryID
+ORDER BY UnitPrice DESC;
+
+
+25. En çok satılan ürününün adı, kategorisinin adı ve tedarikçisinin adı
+SELECT TOP 1 Products.ProductName, Categories.CategoryName, Suppliers.CompanyName
+FROM Products
+JOIN Categories ON Products.CategoryID = Categories.CategoryID
+JOIN Suppliers ON Products.SupplierID = Suppliers.SupplierID
+ORDER BY Products.UnitsInStock * Products.UnitPrice DESC;
