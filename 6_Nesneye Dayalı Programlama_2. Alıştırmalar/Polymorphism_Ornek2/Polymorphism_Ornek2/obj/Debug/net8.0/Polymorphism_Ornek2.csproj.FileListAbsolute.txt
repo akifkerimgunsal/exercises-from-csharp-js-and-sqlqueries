@@ -1,0 +1,14 @@
+C:\Users\akifk\source\repos\TobetoEgitimler\Polymorphism_Ornek2\Polymorphism_Ornek2\bin\Debug\net8.0\Polymorphism_Ornek2.exe
+C:\Users\akifk\source\repos\TobetoEgitimler\Polymorphism_Ornek2\Polymorphism_Ornek2\bin\Debug\net8.0\Polymorphism_Ornek2.deps.json
+C:\Users\akifk\source\repos\TobetoEgitimler\Polymorphism_Ornek2\Polymorphism_Ornek2\bin\Debug\net8.0\Polymorphism_Ornek2.runtimeconfig.json
+C:\Users\akifk\source\repos\TobetoEgitimler\Polymorphism_Ornek2\Polymorphism_Ornek2\bin\Debug\net8.0\Polymorphism_Ornek2.dll
+C:\Users\akifk\source\repos\TobetoEgitimler\Polymorphism_Ornek2\Polymorphism_Ornek2\bin\Debug\net8.0\Polymorphism_Ornek2.pdb
+C:\Users\akifk\source\repos\TobetoEgitimler\Polymorphism_Ornek2\Polymorphism_Ornek2\obj\Debug\net8.0\Polymorphism_Ornek2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akifk\source\repos\TobetoEgitimler\Polymorphism_Ornek2\Polymorphism_Ornek2\obj\Debug\net8.0\Polymorphism_Ornek2.AssemblyInfoInputs.cache
+C:\Users\akifk\source\repos\TobetoEgitimler\Polymorphism_Ornek2\Polymorphism_Ornek2\obj\Debug\net8.0\Polymorphism_Ornek2.AssemblyInfo.cs
+C:\Users\akifk\source\repos\TobetoEgitimler\Polymorphism_Ornek2\Polymorphism_Ornek2\obj\Debug\net8.0\Polymorphism_Ornek2.csproj.CoreCompileInputs.cache
+C:\Users\akifk\source\repos\TobetoEgitimler\Polymorphism_Ornek2\Polymorphism_Ornek2\obj\Debug\net8.0\Polymorphism_Ornek2.dll
+C:\Users\akifk\source\repos\TobetoEgitimler\Polymorphism_Ornek2\Polymorphism_Ornek2\obj\Debug\net8.0\refint\Polymorphism_Ornek2.dll
+C:\Users\akifk\source\repos\TobetoEgitimler\Polymorphism_Ornek2\Polymorphism_Ornek2\obj\Debug\net8.0\Polymorphism_Ornek2.pdb
+C:\Users\akifk\source\repos\TobetoEgitimler\Polymorphism_Ornek2\Polymorphism_Ornek2\obj\Debug\net8.0\Polymorphism_Ornek2.genruntimeconfig.cache
+C:\Users\akifk\source\repos\TobetoEgitimler\Polymorphism_Ornek2\Polymorphism_Ornek2\obj\Debug\net8.0\ref\Polymorphism_Ornek2.dll

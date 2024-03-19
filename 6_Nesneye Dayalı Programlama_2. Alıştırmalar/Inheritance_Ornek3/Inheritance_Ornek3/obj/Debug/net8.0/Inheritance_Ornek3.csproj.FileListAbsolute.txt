@@ -1,0 +1,14 @@
+C:\Users\akifk\source\repos\TobetoEgitimler\Inheritance_Ornek3\Inheritance_Ornek3\bin\Debug\net8.0\Inheritance_Ornek3.exe
+C:\Users\akifk\source\repos\TobetoEgitimler\Inheritance_Ornek3\Inheritance_Ornek3\bin\Debug\net8.0\Inheritance_Ornek3.deps.json
+C:\Users\akifk\source\repos\TobetoEgitimler\Inheritance_Ornek3\Inheritance_Ornek3\bin\Debug\net8.0\Inheritance_Ornek3.runtimeconfig.json
+C:\Users\akifk\source\repos\TobetoEgitimler\Inheritance_Ornek3\Inheritance_Ornek3\bin\Debug\net8.0\Inheritance_Ornek3.dll
+C:\Users\akifk\source\repos\TobetoEgitimler\Inheritance_Ornek3\Inheritance_Ornek3\bin\Debug\net8.0\Inheritance_Ornek3.pdb
+C:\Users\akifk\source\repos\TobetoEgitimler\Inheritance_Ornek3\Inheritance_Ornek3\obj\Debug\net8.0\Inheritance_Ornek3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akifk\source\repos\TobetoEgitimler\Inheritance_Ornek3\Inheritance_Ornek3\obj\Debug\net8.0\Inheritance_Ornek3.AssemblyInfoInputs.cache
+C:\Users\akifk\source\repos\TobetoEgitimler\Inheritance_Ornek3\Inheritance_Ornek3\obj\Debug\net8.0\Inheritance_Ornek3.AssemblyInfo.cs
+C:\Users\akifk\source\repos\TobetoEgitimler\Inheritance_Ornek3\Inheritance_Ornek3\obj\Debug\net8.0\Inheritance_Ornek3.csproj.CoreCompileInputs.cache
+C:\Users\akifk\source\repos\TobetoEgitimler\Inheritance_Ornek3\Inheritance_Ornek3\obj\Debug\net8.0\Inheritance_Ornek3.dll
+C:\Users\akifk\source\repos\TobetoEgitimler\Inheritance_Ornek3\Inheritance_Ornek3\obj\Debug\net8.0\refint\Inheritance_Ornek3.dll
+C:\Users\akifk\source\repos\TobetoEgitimler\Inheritance_Ornek3\Inheritance_Ornek3\obj\Debug\net8.0\Inheritance_Ornek3.pdb
+C:\Users\akifk\source\repos\TobetoEgitimler\Inheritance_Ornek3\Inheritance_Ornek3\obj\Debug\net8.0\Inheritance_Ornek3.genruntimeconfig.cache
+C:\Users\akifk\source\repos\TobetoEgitimler\Inheritance_Ornek3\Inheritance_Ornek3\obj\Debug\net8.0\ref\Inheritance_Ornek3.dll

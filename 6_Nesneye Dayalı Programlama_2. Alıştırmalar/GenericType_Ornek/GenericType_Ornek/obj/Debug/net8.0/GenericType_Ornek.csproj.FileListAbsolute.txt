@@ -1,0 +1,14 @@
+C:\Users\akifk\source\repos\TobetoEgitimler\GenericType_Ornek\GenericType_Ornek\bin\Debug\net8.0\GenericType_Ornek.exe
+C:\Users\akifk\source\repos\TobetoEgitimler\GenericType_Ornek\GenericType_Ornek\bin\Debug\net8.0\GenericType_Ornek.deps.json
+C:\Users\akifk\source\repos\TobetoEgitimler\GenericType_Ornek\GenericType_Ornek\bin\Debug\net8.0\GenericType_Ornek.runtimeconfig.json
+C:\Users\akifk\source\repos\TobetoEgitimler\GenericType_Ornek\GenericType_Ornek\bin\Debug\net8.0\GenericType_Ornek.dll
+C:\Users\akifk\source\repos\TobetoEgitimler\GenericType_Ornek\GenericType_Ornek\bin\Debug\net8.0\GenericType_Ornek.pdb
+C:\Users\akifk\source\repos\TobetoEgitimler\GenericType_Ornek\GenericType_Ornek\obj\Debug\net8.0\GenericType_Ornek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akifk\source\repos\TobetoEgitimler\GenericType_Ornek\GenericType_Ornek\obj\Debug\net8.0\GenericType_Ornek.AssemblyInfoInputs.cache
+C:\Users\akifk\source\repos\TobetoEgitimler\GenericType_Ornek\GenericType_Ornek\obj\Debug\net8.0\GenericType_Ornek.AssemblyInfo.cs
+C:\Users\akifk\source\repos\TobetoEgitimler\GenericType_Ornek\GenericType_Ornek\obj\Debug\net8.0\GenericType_Ornek.csproj.CoreCompileInputs.cache
+C:\Users\akifk\source\repos\TobetoEgitimler\GenericType_Ornek\GenericType_Ornek\obj\Debug\net8.0\GenericType_Ornek.dll
+C:\Users\akifk\source\repos\TobetoEgitimler\GenericType_Ornek\GenericType_Ornek\obj\Debug\net8.0\refint\GenericType_Ornek.dll
+C:\Users\akifk\source\repos\TobetoEgitimler\GenericType_Ornek\GenericType_Ornek\obj\Debug\net8.0\GenericType_Ornek.pdb
+C:\Users\akifk\source\repos\TobetoEgitimler\GenericType_Ornek\GenericType_Ornek\obj\Debug\net8.0\GenericType_Ornek.genruntimeconfig.cache
+C:\Users\akifk\source\repos\TobetoEgitimler\GenericType_Ornek\GenericType_Ornek\obj\Debug\net8.0\ref\GenericType_Ornek.dll
