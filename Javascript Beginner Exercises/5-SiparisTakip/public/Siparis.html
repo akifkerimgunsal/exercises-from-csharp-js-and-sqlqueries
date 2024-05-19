@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Sipariş</title>
+	<script type="text/javascript" src="Siparis.js"></script>
+	<link rel="stylesheet" href="Siparis.css">
+</head>
+<body onload="sayfaYukle();">
+	<table class="table1">
+		<tr>
+			<td> 
+				Ürün 
+			</td>
+			<td> 
+				<input id="input1" type="text"> 
+			</td>
+		</tr>
+		<tr>
+			<td> 
+				Sipariş Adedi 
+			</td>
+			<td> 
+				<input id="input2" type="text"> 
+			</td>
+		</tr>
+		<tr class="tr1">
+			<td class="td1"> 
+				<button class="buton1" onclick="adetSiparis('ADET');"> ... Adet </button> 
+			</td>
+			<td class="td1">
+				<button class="buton1" onclick="adetSiparis('ON');"> 10 Adet </button> 
+			</td>
+		</tr>
+		<tr class="tr2">
+			<td colspan="2">
+				<p id="p1"> Dene ve sil... </p>
+			</td>
+		</tr>
+		<tr class="tr2">
+			<td colspan="2">
+				<button class="buton2" onclick="temizle();"> Formu Temizle </button>
+			</td>
+		</tr>
+		
+	</table>
+</body>
+</html>

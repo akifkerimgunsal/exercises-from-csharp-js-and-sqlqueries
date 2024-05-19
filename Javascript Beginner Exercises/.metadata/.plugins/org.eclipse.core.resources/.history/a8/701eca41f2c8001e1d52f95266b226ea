@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<script type="text/javascript" src="fibonacci.js"></script>
+</head>
+<body>
+	<input id="input1" type="text" oninput="veriGirisi()" >
+	<br>
+	<button type="button" onclick="listele()"> Fibonacci'yi Listele</button>
+	<button id="buton2" type="button" onclick="temizle()"> Temizle</button>
+	<p id="p1"> Sonuçlar burada gösterilecek...</p>
+</body>
+</html>

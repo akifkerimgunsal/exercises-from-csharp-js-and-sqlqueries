@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Toplama</title>
+	<script type="text/javascript" src="Toplama.js"></script>
+</head>
+<body>
+	<input id="input1" type="text" >
+	<input id="input2" type="text" > <br>
+	<button onclick="topla()"> Topla </button>
+	<p id="p1"> Sonuçlar burada gösterilecek...</p>
+</body>
+</html>

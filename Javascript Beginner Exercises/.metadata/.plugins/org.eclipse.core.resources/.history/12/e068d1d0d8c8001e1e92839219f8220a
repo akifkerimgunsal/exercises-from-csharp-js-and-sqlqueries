@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+
+ function sirala() {
+	 var birinciSayi=+document.getElementById("input1").value;
+	 var ikinciSayi=+document.getElementById("input2").value;
+	 
+	 if(birinciSayi > ikinciSayi){
+		 document.getElementById("p1").innerHTML = birinciSayi + " > " + ikinciSayi;
+	 }
+	 else
+	 	document.getElementById("p1").innerHTML = ikinciSayi + " > " + birinciSayi;
+ }
+ 
+ 

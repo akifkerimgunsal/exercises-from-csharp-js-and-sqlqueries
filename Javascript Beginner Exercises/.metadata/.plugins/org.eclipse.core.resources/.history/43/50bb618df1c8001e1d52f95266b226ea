@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+
+function() listele{
+	
+}
+
+ function temizle(){
+	 document.getElementById("input1").value = " ";
+	 document.getElementById("p1").innerHTML = "Sonuçlar burada gösterilecek...";
+	 document.getElementById("buton2").disabled = true;
+ }

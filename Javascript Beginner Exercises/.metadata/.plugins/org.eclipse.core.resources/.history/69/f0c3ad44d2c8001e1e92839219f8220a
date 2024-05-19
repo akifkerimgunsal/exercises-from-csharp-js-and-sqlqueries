@@ -1,0 +1,7 @@
+/**
+ * 
+ */
+
+ function topla() {
+	 alert("sa");
+ }

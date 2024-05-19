@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+const bilgiSatiri = "Sonuçlar burada gösterilecek...";
+
+function listele(){
+	
+}
+
+function sayfaYukle(){
+	document.getElementById(p1).innerHTML = bilgiSatiri;
+	document.getElementById(buton2).disabled = true;
+}
+
+
+function veriGirisi(){
+	if(document.getElementById(buton2).disabled)
+		document.getElementById(buton2).disabled = false;
+}
+
+function temizle(){
+	 document.getElementById("input1").value = "";
+	 document.getElementById("p1").innerHTML = bilgiSatiri;
+	 document.getElementById("buton2").disabled = true;
+}
